@@ -72,7 +72,7 @@ const Captcha = () => {
           <Button
             variant="secondary"
             onClick={validateCaptcha}
-            style={{ marginBottom: "10px" }}
+            style={{ marginBottom: "10px", display: "flex" }}
           >
             Validate
           </Button>

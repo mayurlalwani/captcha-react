@@ -18,7 +18,7 @@ const Signup = () => {
       <div className="signup-container">
         <Form onSubmit={submitHandler}>
           <Form.Group controlId="name" className="form-group">
-            <Form.Label>Name</Form.Label>
+            <Form.Label className="form-label">Name</Form.Label>
             <Form.Control
               type="name"
               placeholder="Enter name"
@@ -27,7 +27,7 @@ const Signup = () => {
             ></Form.Control>
           </Form.Group>
           <Form.Group controlId="formBasicEmail" className="form-group">
-            <Form.Label>Email Address</Form.Label>
+            <Form.Label className="form-label">Email Address</Form.Label>
             <Form.Control
               type="email"
               placeholder="Enter email"
@@ -37,7 +37,7 @@ const Signup = () => {
           </Form.Group>
 
           <Form.Group controlId="formBasicPassword" className="form-group">
-            <Form.Label>Password</Form.Label>
+            <Form.Label className="form-label">Password</Form.Label>
             <Form.Control
               type="password"
               placeholder="Enter Password"
@@ -46,7 +46,7 @@ const Signup = () => {
             ></Form.Control>
           </Form.Group>
           <Form.Group controlId="confirmPassword" className="form-group">
-            <Form.Label>Confirm Password</Form.Label>
+            <Form.Label className="form-label">Confirm Password</Form.Label>
             <Form.Control
               type="password"
               placeholder="Confirm Password"
