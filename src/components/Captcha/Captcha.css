@@ -1,0 +1,26 @@
+.captcha-container {
+  width: 20%;
+}
+.captcha {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 3px;
+  border-radius: 5px;
+  color: #a0a0a0;
+  background-color: #0c0c0c;
+  width: 100%;
+}
+
+.input-captcha {
+  margin-top: 10px;
+  display: flex;
+}
+
+.errMsg {
+  color: red;
+}
+
+.success-msg {
+  color: green;
+}
